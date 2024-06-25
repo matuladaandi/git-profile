@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Absolute</title>
+    <!-- default position itu static dan dijika di ubah maka tdk akan bergerak position nya -->
+
+    <style>
+        .container {
+            position: relative;
+            height: 300px;
+            width: 300px;
+            background-color: rgb(170, 137, 201);
+        }
+
+        .content {
+            background-color: aquamarine;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .content2 {
+            background-color: yellowgreen;
+            position: absolute;
+
+            /* position: absolute; posisi nya akan berubah dan tdk ada ruang nya di posisi awal */
+            /* kalau dia tdk memiliki parent maka parent nya itu html */
+
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content content1">
+            <h2>Content 1</h2>
+        </div>
+        <div class="content content2">
+            <h2>Content 2</h2>
+        </div>
+        <div class="content content4">
+            <h2>Content 3</h2>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nemo voluptatibus voluptas voluptatem illum quia
+        odit, esse vel labore, omnis nihil. In excepturi nisi facere iste? Sapiente at maxime dolor inventore dolorum
+        facilis rem odit eligendi et, doloribus porro! Voluptatibus veritatis corporis necessitatibus sunt temporibus
+        praesentium incidunt quae! A, obcaecati. Ea eos maiores aut dolorem dolore fuga facere, at quasi! Eaque nostrum
+        tempore rerum neque inventore est culpa error molestias voluptate laudantium praesentium accusantium eius unde
+        obcaecati maxime minus a, qui, optio fuga in voluptas. Totam maiores, ducimus saepe et reprehenderit quasi
+        explicabo doloribus earum velit animi laudantium delectus voluptatem dolore repudiandae sed dignissimos optio
+        nulla. Reiciendis veritatis cupiditate velit excepturi eum cumque consequuntur quo beatae optio magni,
+        voluptatem eligendi nulla quos at maxime ea! Et dicta nesciunt hic consequatur incidunt quo maxime nihil!
+        Corrupti velit quos eos laudantium, iste rem voluptas hic quas molestias, unde iure delectus aliquam voluptate
+        libero obcaecati autem dolores non adipisci! Culpa dicta repudiandae ab dolore eius, eaque explicabo quod
+        suscipit cupiditate repellat repellendus. Quibusdam eius temporibus sit eos sapiente. Ipsum exercitationem neque
+        facere totam distinctio reprehenderit quidem porro, temporibus officia molestias! Nobis adipisci officiis
+        quisquam earum ad sunt hic, nulla esse, quod, soluta magni!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio nemo voluptatibus voluptas voluptatem illum quia
+        odit, esse vel labore, omnis nihil. In excepturi nisi facere iste? Sapiente at maxime dolor inventore dolorum
+        facilis rem odit eligendi et, doloribus porro! Voluptatibus veritatis corporis necessitatibus sunt temporibus
+        praesentium incidunt quae! A, obcaecati. Ea eos maiores aut dolorem dolore fuga facere, at quasi! Eaque nostrum
+        tempore rerum neque inventore est culpa error molestias voluptate laudantium praesentium accusantium eius unde
+        obcaecati maxime minus a, qui, optio fuga in voluptas. Totam maiores, ducimus saepe et reprehenderit quasi
+        explicabo doloribus earum velit animi laudantium delectus voluptatem dolore repudiandae sed dignissimos optio
+        nulla. Reiciendis veritatis cupiditate velit excepturi eum cumque consequuntur quo beatae optio magni,
+        voluptatem eligendi nulla quos at maxime ea! Et dicta nesciunt hic consequatur incidunt quo maxime nihil!
+        Corrupti velit quos eos laudantium, iste rem voluptas hic quas molestias, unde iure delectus aliquam voluptate
+        libero obcaecati autem dolores non adipisci! Culpa dicta repudiandae ab dolore eius, eaque explicabo quod
+        suscipit cupiditate repellat repellendus. Quibusdam eius temporibus sit eos sapiente. Ipsum exercitationem neque
+        facere totam distinctio reprehenderit quidem porro, temporibus officia molestias! Nobis adipisci officiis
+        quisquam earum ad sunt hic, nulla esse, quod, soluta magni!</p>
+
+</body>
+
+</html>

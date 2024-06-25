@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <!-- default position itu static dan dijika di ubah maka tdk akan bergerak position nya -->
+
+    <style>
+        .content {
+            background-color: aquamarine;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        .content2 {
+            background-color: yellowgreen;
+            position: relative;
+            /* position: absolute; posisi nya akan berubah dan tdk ada ruang nya di posisi awal */
+            /* kalau dia tdk memiliki parent maka parent nya itu html */
+
+            /* position: relative;  akan berubah posisi nya tapi tetap ada ruang nya di posisi awal tadi*/
+
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="content content1">
+        <h2>Content 1</h2>
+    </div>
+    <div class="content content2">
+        <h2>Content 2</h2>
+    </div>
+    <div class="content content4">
+        <h2>Content 3</h2>
+    </div>
+
+</body>
+
+</html>
