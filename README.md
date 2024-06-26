@@ -1,5 +1,5 @@
 
-# Project Title
+# Git-ProfileNahu
 
 A brief description of what this project does and who it's for
 
@@ -50,12 +50,5 @@ Open with live server
 
 ## Authors
 
-- [@codewithsadee](https://www.github.com/codewithsadee)
+- [@matuladaandi](https://www.github.com/matuladaandi)
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Support
-
-For support, Join my [Patreon Comunity](https://www.patreon.com/codewithsadee/membership) or Subscribe My [YouTube Channel](https://youtube.com/@codewithsadee).
