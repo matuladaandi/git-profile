@@ -3,13 +3,11 @@
 \*-----------------------------------*/
 
 /**
- * License: MIT
- * Author: codewithsadee <mohammadsadee24@gmail.com>
- * Copyright: codewithsadee 2023
+ * @author M.Andi.Matulada <matuladaandi@gmail.com>
+ * @copyright matuladaandi 2024
  */
 
-
-
+/* Build Your First GitHub App with JavaScript and GitHub API: Easy and Fast */
 
 
 /*-----------------------------------*\
@@ -406,7 +404,7 @@ body {
   transition: var(--transition-short);
 }
 
-/* Build Your First GitHub App with JavaScript and GitHub API: Easy and Fast */
+
 .search-btn:where(:hover, :focus-visible):not(:active) {
   background-color: var(--primary-hover);
 }
