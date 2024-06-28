@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container {
+            background-color: rgb(128, 93, 93);
+
+            /* DISPLAY */
+
+            /* defaultnya flex : {row} */
+            display: flex;
+
+            /* FLEX DIRECTION */
+
+            /* flex-direction: row; {Default nya}*/
+            flex-direction: row;
+            /* flex-direction: column-reverse; */
+            /* flex-direction: row-reverse; */
+
+            /* FLEX WRAP */
+
+            /* flex-wrap: nowrap; {Default nya} */
+            flex-wrap: wrap;
+            /* akan turun*/
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap-reverse; */
+        }
+
+        .content {
+            /* default nya flex item akan ditampilkan dlm 1 garis yakni vertical(row) or horizontal(column) */
+
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            border: 2px solid gold;
+            background-color: rgb(110, 160, 143);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h3>This is content 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, magni error ipsam provident
+                consectetur accusantium nobis obcaecati nostrum fugiat ad enim repudiandae aliquam eaque non quibusdam
+                ducimus in doloribus.</p>
+        </div>
+        <div class="content">
+            <h3>This is content 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, magni error ipsam provident
+                consectetur accusantium nobis obcaecati nostrum fugiat ad enim repudiandae aliquam eaque non quibusdam
+                ducimus in doloribus.</p>
+        </div>
+        <div class="content">
+            <h3>This is content 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, magni error ipsam provident
+                consectetur accusantium nobis obcaecati nostrum fugiat ad enim repudiandae aliquam eaque non quibusdam
+                ducimus in doloribus.</p>
+        </div>
+        <div class="content">
+            <h3>This is content 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, magni error ipsam provident
+                consectetur accusantium nobis obcaecati nostrum fugiat ad enim repudiandae aliquam eaque non quibusdam
+                ducimus in doloribus.</p>
+        </div>
+        <div class="content">
+            <h3>This is content 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, magni error ipsam provident
+                consectetur accusantium nobis obcaecati nostrum fugiat ad enim repudiandae aliquam eaque non quibusdam
+                ducimus in doloribus.</p>
+        </div>
+        <div class="content">
+            <h3>This is content 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ea, magni error ipsam provident
+                consectetur accusantium nobis obcaecati nostrum fugiat ad enim repudiandae aliquam eaque non quibusdam
+                ducimus in doloribus.</p>
+        </div>
+    </div>
+</body>
+
+</html>
