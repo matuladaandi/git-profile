@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring</title>
+
+</head>
+
+<body>
+
+
+    <script>
+        const names = ['andi', 'matulada', 'ok', 12, true, "lainnya"];
+
+        // names meruppakan variabel di atas
+        const [firstName, middleName, lastName, ...others] = names;
+
+        console.log(firstName);
+        console.log(middleName);
+        console.log(lastName);
+
+        // others akan di simpan dlm bentuk array
+        console.log(others);
+
+    </script>
+</body>
+
+</html>
